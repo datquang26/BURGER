@@ -33,13 +33,13 @@ function DrinkItemHorizontal(props) {
           {item?.owner}
         </Text>
         <View style={{ flexDirection: "row" }}>
-          <Text style={{ color: "#2FDBBC", fontWeight: "bold", width:100 }}>
+          <Text style={{ color: "#C31C1C", fontWeight: "bold", width:100 }}>
             {item?.price} VND
           </Text>
           <View
             style={{
               padding: 2,
-              backgroundColor: "#2FDBBC",
+              backgroundColor: "red",
               borderRadius: 8,
               alignItems: "center",
             }}

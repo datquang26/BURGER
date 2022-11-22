@@ -1,11 +1,14 @@
 [
     {
         "id": 0,
-        "name": "BURFER THAN TRE 2 MIẾNG BÒ",
+        "name": "BURGER THAN TRE 2 MIẾNG BÒ",
         "image": "https://burgerking.vn/media/catalog/product/cache/1/small_image/316x/9df78eab33525d08d6e5fb8d27136e95/b/g/bg_than_tre_2_mi_ng_b_.jpg",
-        "price": 400000,
+        "price": 69000,
         "ice": [
-            "Black"
+            "Thịt Bò",
+            "Salad",
+            "Phô mai",
+            "Lạp xưởng"
         ],
         "size": [
             "S",
@@ -19,11 +22,14 @@
     },
     {
         "id": 1,
-        "name": "BURFER BÒ PHOMAI SỐT BBQ",
+        "name": "BURGER BÒ PHOMAI SỐT BBQ",
         "image": "https://burgerking.vn/media/catalog/product/cache/1/small_image/316x/9df78eab33525d08d6e5fb8d27136e95/b/u/burger_bo_khoai_gio_n_tra_n_pho_mai_co_vu_a.jpeg",
-        "price": 300000,
+        "price": 67000,
         "ice": [
-            "Gold"
+            "Thịt Bò",
+            "Salad",
+            "Phô mai",
+            "Lạp xưởng"
         ],
         "size": [
             "S",
@@ -40,7 +46,10 @@
         "image": "https://burgerking.vn/media/catalog/product/cache/1/small_image/316x/9df78eab33525d08d6e5fb8d27136e95/7/-/7-burger-b_-n_ng-whopper-jr_1.jpg",
         "price": 350000,
         "ice": [
-            "Gold"
+            "Thịt Bò",
+            "Salad",
+            "Phô mai",
+            "Lạp xưởng"
         ],
         "size": [
             "S",
@@ -54,9 +63,12 @@
         "id": 3,
         "name": "BURGER GÀ NƯỚNG ",
         "image": "https://burgerking.vn/media/catalog/product/cache/1/small_image/316x/9df78eab33525d08d6e5fb8d27136e95/1/5/15-burger-g_-n_ng_1.jpg",
-        "price": 30000,
+        "price": 49000,
         "ice": [
-            "Gold"
+            "Thịt Bò",
+            "Salad",
+            "Phô mai",
+            "Lạp xưởng"
         ],
         "size": [
             "S",
@@ -70,9 +82,12 @@
         "id": 4,
         "name": "BERGER THỊT HEO XÔNG KHÓI",
         "image": "https://burgerking.vn/media/catalog/product/cache/1/small_image/316x/9df78eab33525d08d6e5fb8d27136e95/1/1/11-burger-b_-th_t-heo-x_ng-kh_i_1.jpg",
-        "price": 30000,
+        "price": 39000,
         "ice": [
-            "Gold"
+            "Thịt Bò",
+            "Salad",
+            "Phô mai",
+            "Lạp xưởng"
         ],
         "size": [
             "S",

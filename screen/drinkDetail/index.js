@@ -73,10 +73,11 @@ export default function DrinkDetailScreen({ navigation, route }) {
         <Text style={{ color: "#F99928", fontSize: 16 }}>{item.owner}</Text>
         <Text
           style={{
-            color: "#000",
-            fontSize: 12,
+            color: "dimgrey",
+            fontSize: 15,
             fontWeight: "bold",
-            marginTop: 24,
+            marginTop: 5,
+            marginBottom: 5,
           }}
         >
           MÔ TẢ
@@ -92,7 +93,7 @@ export default function DrinkDetailScreen({ navigation, route }) {
           <View>
             <Text
               style={{
-                color: "brown",
+                color: "orange",
                 fontSize: 10,
                 fontWeight: "bold",
                 marginLeft: 12,
@@ -139,14 +140,14 @@ export default function DrinkDetailScreen({ navigation, route }) {
           <View>
             <Text
               style={{
-                color: "brown",
+                color: "orange",
                 fontSize: 10,
                 fontWeight: "bold",
                 marginLeft: 12,
                 marginBottom:3,
               }}
             >
-              MÀU SẮC
+              TOPPING
             </Text>
             <View
               style={{
@@ -175,7 +176,7 @@ export default function DrinkDetailScreen({ navigation, route }) {
           <View>
             <Text
               style={{
-                color: "brown",
+                color: "orange",
                 fontSize: 10,
                 fontWeight: "bold",
                 marginLeft: 12,
@@ -226,7 +227,7 @@ export default function DrinkDetailScreen({ navigation, route }) {
             </Text>
             <Text
               style={{
-                color: "darkgoldenrod",
+                color: "#C31C1C",
                 fontSize: 30,
                 textAlign: "right",
                 fontWeight: "bold",
@@ -238,7 +239,7 @@ export default function DrinkDetailScreen({ navigation, route }) {
         </View>
         <MainButton
           onPress={addToCart}
-          style={{ marginTop: 30, backgroundColor: "chocolate",  }}
+          style={{ marginTop: 30, backgroundColor: "orange",  }}
           title={"THÊM VÀO GIỎ"}
         />
       </View>

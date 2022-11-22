@@ -28,7 +28,7 @@ export default function LoginScreen({ navigation }) {
     }
   };
   const login = async () => {
-    axios.get('https://raw.githubusercontent.com/hungdztrau123/hungh-hehome/master/data/user.json').then(response => {
+    axios.get('https://raw.githubusercontent.com/datquang26/BURGER/main/data/use.json').then(response => {
       let userData = response.data.NguoiDung
       console.log(response.data)
       if (userData) {
@@ -78,14 +78,14 @@ export default function LoginScreen({ navigation }) {
           <Image
             style={{
               alignSelf: 'center',
-              height: 80,
+              height: 100,
               resizeMode: 'contain',
               width: 120,
-              
+              marginBottom: 55,
             }}
             source={require('../../assets/loBK.png')}
           />
-          <Text
+          {/* <Text
             style={{
               textAlign: 'center',
               fontWeight: 'bold',
@@ -95,7 +95,7 @@ export default function LoginScreen({ navigation }) {
             }}
           >
            BURGER KING
-          </Text>
+          </Text> */}
 
           <MainInput
             title={'Email'}

@@ -13,12 +13,10 @@ import drinkData from "../../data/drinks.json";
 export default function SearchScreen({ navigation }) {
   const [textSearch, settextSearch] = useState("");
   const categories = [
-    "Trà Sữa",
-    "Cà Phê",
-    "Trà",
-    "Nước Giải Khát",
-    "Nước Khoáng",
-    "Nước Chanh",
+    "BURGER THAN TRE",
+    "BURGER BÒ PHOMAI SỐ BBQ",
+    "BURGER GÀ NƯỚNG",
+    
   ];
   const renderResult = () => {
     const data = drinkData.filter((value) =>

@@ -56,13 +56,29 @@ export default function HomeScreen({ navigation }) {
         <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
        
        
-          <Text style={{ color: '#F47D02', fontWeight: 'bold', fontSize: 20 }}>
-           MUA 1 TẶNG 1 - THỨ 5 HÀNG TUẦN
+          <Text style={{ color: 'orangered', fontWeight: 'bold', fontSize: 20 }}>
+           MUA 1 TẶNG 1 -
           </Text>
-     
+         
+          <Text style={{ color: '#F47D02', fontWeight: 'bold', fontSize: 20,marginLeft:5, }}>
+            THỨ 5 HÀNG TUẦN
+          </Text>
         
           
         </View>
+
+        <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
+       
+       
+       <Text style={{ color: '#F47D02', fontWeight: 'bold', fontSize: 15 }}>
+        CUỐI TUẦN VUI VẺ -
+       </Text>
+       <Text style={{ color: 'orangered', fontWeight: 'bold', fontSize: 15 ,marginLeft:5,}}>
+           ĐỒNG GIÁ 39K
+       </Text>
+     
+       
+     </View>
       
         
         </View>

@@ -94,8 +94,8 @@ export default function CartScreen() {
         <View
           style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
         >
-          <Ionicons name="cart-outline" size={130} color="black" />
-          <Text style={{ color: "black", fontSize: 20 }}>Giỏ hàng đang trống</Text>
+          <Ionicons name="cart-outline" size={130} color="gray" />
+          <Text style={{ color: "gray", fontSize: 20 }}>Giỏ hàng đang trống</Text>
         </View>
       )}
 

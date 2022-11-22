@@ -12,7 +12,7 @@ export default function MyTabBar({ state, descriptors, navigation }) {
     <View
       style={{
         flexDirection: "row",
-        backgroundColor: "#fff",
+        backgroundColor: "#EEEEEE",
         height: 60,
         display: "flex",
         width: "100%",
@@ -44,7 +44,7 @@ export default function MyTabBar({ state, descriptors, navigation }) {
           >
             <Image
               style={{
-                tintColor: isFocused ? "orange" : "#222",
+                tintColor: isFocused ? "darkorange" : "#222",
                 height: 22,
                 width: 22,
                 resizeMode: "contain",
@@ -57,7 +57,7 @@ export default function MyTabBar({ state, descriptors, navigation }) {
                 height: 2,
                 width: 8,
                 borderRadius: 10,
-                backgroundColor: isFocused ? "orange" : "transparent",
+                backgroundColor: isFocused ? "darkorange" : "transparent",
               }}
             />
           </TouchableOpacity>
