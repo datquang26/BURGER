@@ -1,0 +1,20 @@
+{
+    "NguoiDung": [
+      {
+        "name": "Đạt",
+        "taikhoan": "dat",
+        "matkhau": 1
+      },
+      {
+        "name": "Đạt1",
+        "taikhoan": "datt",
+        "matkhau": 1
+      },
+      {
+        "name": "Đạt2",
+        "taikhoan": "dattt",
+        "matkhau": 1
+      }
+    ]
+  }
+  
