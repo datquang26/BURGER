@@ -4,6 +4,8 @@ import { FlatList, ScrollView, StatusBar, Text, View } from 'react-native';
 import DrinkItem from '../../components/DrinkItem';
 import data from '../../data/drinks.json';
 import styles from './styles';
+import data1 from '../../data/nuoc.json';
+
 
 export default function HomeScreen({ navigation }) {
   const [user, setuser] = useState(null);
@@ -96,7 +98,7 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.sectionContainer}>
         <Text style={styles.title}>Đồ uống</Text>
         <FlatList
-          data={data}
+          data={data1}
           horizontal
           showsHorizontalScrollIndicator={false}
           keyExtractor={(item, index) => item + index}
