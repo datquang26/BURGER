@@ -5,6 +5,8 @@ import DrinkItem from '../../components/DrinkItem';
 import data from '../../data/drinks.json';
 import styles from './styles';
 import data1 from '../../data/nuoc.json';
+import data2 from '../../data/kem.json';
+import data3 from '../../data/combo.json';
 
 
 export default function HomeScreen({ navigation }) {
@@ -96,6 +98,16 @@ export default function HomeScreen({ navigation }) {
         />
       </View>
       <View style={styles.sectionContainer}>
+        <Text style={styles.title}>COMBO BURGER</Text>
+        <FlatList
+          data={data3}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          keyExtractor={(item, index) => item + index}
+          renderItem={renderItem}
+        />
+      </View>
+      <View style={styles.sectionContainer}>
         <Text style={styles.title}>Đồ uống</Text>
         <FlatList
           data={data1}
@@ -105,6 +117,17 @@ export default function HomeScreen({ navigation }) {
           renderItem={renderItem}
         />
       </View>
+      <View style={styles.sectionContainer}>
+        <Text style={styles.title}>Kem</Text>
+        <FlatList
+          data={data2}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          keyExtractor={(item, index) => item + index}
+          renderItem={renderItem}
+        />
+      </View>
+      
     </ScrollView>
   );
 }
